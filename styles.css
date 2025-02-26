@@ -1,3 +1,16 @@
+head {
+   
+background-color: #4CAF50;
+
+padding: 50px;
+
+text-align: center;
+
+}
+
+head h3 {
+margin: 2;
+text-shadowing: 5px 5px 10px saddlebrown
 header {
 
 background-color: #4CAF50;
