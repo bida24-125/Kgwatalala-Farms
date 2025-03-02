@@ -12,6 +12,13 @@ text-align: center;
 
 }
 
+img {
+ 
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+
 header h3 {
 margin: 0;
 text-shadowing: 5px 5px 10px saddlebrown
