@@ -23,6 +23,11 @@ img {
  float: left;
 }
 
+div {
+  width:400px;
+  margin:auto;
+}
+
 header h3 {
 margin: 0;
 text-shadowing: 5px 5px 10px saddlebrown
