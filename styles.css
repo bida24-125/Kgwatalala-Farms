@@ -20,9 +20,9 @@ img {
 }
 
 #img 1 {
- float: left;
  max-width: 100%;
- margin: 20px 0;
+ margin: 20px 0; 
+ float: left;
  border-radius: 8px;
 }
 
