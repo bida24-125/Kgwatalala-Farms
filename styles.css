@@ -21,6 +21,13 @@ img {
 
 #img 1 {
   float: left;
+ max-width: 100%;
+
+height: auto;
+
+display: block;
+
+margin: 20px 0;
 }
 
 header h3 {
