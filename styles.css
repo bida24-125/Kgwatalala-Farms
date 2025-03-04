@@ -19,6 +19,10 @@ img {
   float: right;
 }
 
+img 1 {
+  float: left;
+}
+
 header h3 {
 margin: 0;
 text-shadowing: 5px 5px 10px saddlebrown
