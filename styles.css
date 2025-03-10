@@ -23,7 +23,8 @@ img {
 div {
   width:400px;
   margin:auto;
-}
+  background-color: #FFA07A;
+ }
 
 header h3 {
 margin: 0;
