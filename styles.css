@@ -127,3 +127,11 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+#contained-text {
+    max-width: 600px; /* Limits the width of the paragraph */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; /* Ensures the text aligns to the left */
+    padding: 10px; /* Adds some spacing inside */
+}
