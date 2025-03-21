@@ -84,7 +84,7 @@ background-color: #D2B48C; !important;
 
 #welcome {
   .image-container {
-  background-image: url("BRC-Money-Dont-Jiggle-240-1024x683.jpg"); /* The image used - important! */
+  background-image: url("R.jpg"); /* The image used - important! */
   background-size: cover;
   position: relative; /* Needed to position the cutout text in the middle of the image */
   height: 1000px; /* Some height */
