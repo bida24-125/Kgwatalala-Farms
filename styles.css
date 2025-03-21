@@ -19,11 +19,14 @@ img {
   float: right; !important;
 }
 
-
-div {
-  width:800px; !important;
+.row {width:800px; !important;
   margin:auto; !important;
- }
+     }
+
+.col-md-8 {width:800px; !important;
+  margin:auto; !important;
+          }
+
 
 header h3 {
 margin: 0; !important;
