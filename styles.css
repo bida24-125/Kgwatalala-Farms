@@ -70,8 +70,17 @@ margin: 0 10px; !important;
 
 }
 
-#home.nav{ 
+#index.nav { 
+ position: fixed; !important
+ 
  color: black; !important
+
+ top: 10px; 
+
+ right: 10px; !important
+ 
+ padding: 10px 20px; !important
+  
 } 
 
 nav a:hover {
