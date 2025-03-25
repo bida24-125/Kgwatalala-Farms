@@ -71,9 +71,10 @@ margin: 0 10px; !important;
 }
 
 #index.nav { 
- position: fixed; !important
+
+ color: black; !important;
  
- color: black; !important
+ position: fixed; !important
 
  top: 10px; 
 
