@@ -196,7 +196,6 @@ div.desc {
 }
 
 .item1 {
-  grid-area: header;
   background-color: purple;
   text-align: center;
   color: #ffffff;
@@ -252,4 +251,6 @@ div.desc {
   font-size: 20px;
   padding-bottom: 10px;
 }
+
+
 
