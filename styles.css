@@ -194,16 +194,6 @@ div.desc {
   font-size: 16px;
 }
 
-.item1 {
-  background-color: purple;
-  text-align: center;
-  color: #ffffff;
-}
-
-.item1 > h1 {
-  font-size: 40px;
-}
-
 .item2 {
   grid-area: menu;
   }
