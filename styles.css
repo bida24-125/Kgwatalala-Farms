@@ -1,47 +1,47 @@
  h1 { 
-   text-align: center; !important;
-   font-family: Georgia, serif; !important;
-  font-size: 100px; !important;
-  color: saddlebrown; !important;
+   text-align: center; 
+   font-family: Georgia, serif; 
+  font-size: 100px; 
+  color: saddlebrown;
 }
 
  header {
    
-background-color: #4CAF50; !important;
+background-color: #4CAF50; 
 
-padding: 50px; !important;
+padding: 50px; 
 
-text-align: center; !important;
+text-align: center;
 
 }
 
 img {
-  float: right; !important;
+  float: right;
 }
 
-.row {width:800px; !important;
-  margin:auto; !important;
+.row {width:800px; 
+  margin:auto; 
      }
 
-.col-md-8 {width:800px; !important;
-  margin:auto; !important;
+.col-md-8 {width:800px; 
+  margin:auto; 
           }
 
 
 header h3 {
-margin: 0; !important;
-text-shadowing: 5px 5px 10px saddlebrown !important;
+margin: 0; 
+text-shadowing: 5px 5px 10px saddlebrown
 }
 
 header {
 
-background-color: #4CAF50; !important;
+background-color: #4CAF50; 
 
-color: white; !important;
+color: white; 
 
-padding: 50px; !important;
+padding: 50px;
 
-text-align: center; !important;
+text-align: center; 
    
 
 }
@@ -49,7 +49,7 @@ text-align: center; !important;
 
 header h1 {
 
-margin: 0; white: !important;
+margin: 0; white:
 
 }
 
@@ -66,82 +66,81 @@ margin: 0 10px;
 
 #index.nav { 
 
- color: black; !important;
+ color: black; 
  
- position: fixed; !important;
+ position: fixed; 
 
  top: 10px; 
 
- right: 10px; !important
+ right: 10px; 
  
- padding: 10px 20px; !important
+ padding: 10px 20px; 
   
 } 
 
 nav a:hover {
 
-text-decoration: underline; !important;
+text-decoration: underline; 
 
 }
 .main {
 
-padding: 20px; !important;
+padding: 20px; 
+max-width: 1000px; 
 
-max-width: 1000px; !important;
-
-margin: 0 auto; !important;
+margin: 0 auto; 
  
-background-color: #D2B48C; !important;
+background-color: #D2B48C;
 
 }
 
 
 main img {
 
-max-width: 100%; !important;
+max-width: 100%; 
 
-height: auto; !important;
+height: auto; 
 
-display: block; !important;
+display: block; 
 
-margin: 20px 0; !important;
+margin: 20px 0;
 
 }
 body {
 
-font-family: Arial, sans-serif; !important;
+font-family: Arial, sans-serif; 
 
-color: #333; !important;
+color: #333;
 
-background-color: #F8F8FF; !important;
+background-color: #F8F8FF; 
 
-margin: 0; !important;
+margin: 0; 
 
-padding: 0; !important;
+padding: 0;
 
-line-height: 1.6; !important;
+line-height: 1.6; 
 
 }
 
 div.gallery {
-  margin: 5px; !important;
-  border: 1px solid #ccc; !important;
-  float: left; !important;
-  width: 180px; !important;
+  margin: 5px; 
+  border: 1px solid #ccc; 
+  float: left; 
+  width: 180px; 
 }
 
 div.gallery:hover {
-  border: 1px solid #777; !important;
+  border: 1px solid #777; 
 }
 
 div.gallery img {
-  width: 100%; !important;
+  width: 100%; 
   height: auto; !important;
 } 
 
 div.desc {
-  padding: 15px; !important;
-  text-align: center; !important;
+  padding: 15px; 
+  text-align: center; 
 }
 
 
