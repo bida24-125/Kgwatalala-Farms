@@ -232,5 +232,13 @@ div.desc {
   padding-bottom: 10px;
 }
 
-.mySlides {display:none;}
+.mySlides {
+ display:none;
+  max-width: 90%;
+  max-height: 80vh;  /* 80% of the viewport height */
+  object-fit: contain;  /* Makes sure the whole image fits */
+  margin: auto;
+  display: none;
+  position: relative;
+}
 
