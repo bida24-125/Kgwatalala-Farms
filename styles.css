@@ -84,6 +84,12 @@ header {
   }
 }
 
+/* Logo size and spacing */
+.logo img {
+  height: 60px; /* Adjust this to your liking */
+  width: auto;
+  max-width: 100%;
+}
 
 img {
   float: right;
