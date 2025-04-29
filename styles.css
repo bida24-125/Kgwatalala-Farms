@@ -10,12 +10,11 @@ header {
   background-color: #4CAF50;
   padding: 50px;
   text-align: center;
-}
-
-.site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
   padding: 10px 40px;
 
 /* Navbar Styling */
