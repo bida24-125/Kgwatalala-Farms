@@ -98,11 +98,9 @@ header {
 
 .card-with-image {
  
-background-image:  url('Background.About.webp');
- background-size: cover;
- background-position: center;
- color: white;
+background-color: #DEB887;
  border-radius: 12px;
+ 
 img {
   float: right;
 }
