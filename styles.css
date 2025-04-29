@@ -12,6 +12,12 @@ header {
   text-align: center;
 }
 
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+
 /* Navbar Styling */
 .navbar {
   overflow: hidden;
@@ -86,11 +92,10 @@ header {
 
 /* Logo size and spacing */
 .logo img {
-  height: 10px; /* Adjust this to your liking */
+  height: 30px; /* Adjust this to your liking */
   width: auto;
   max-width: 100%;
- float: left; 
- margin: 10px 0;
+  margin: 10px 0;
 }
 
 header {
