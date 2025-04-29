@@ -87,8 +87,16 @@ header {
 /* Logo size and spacing */
 .logo img {
   height: 10px; /* Adjust this to your liking */
-  width: auto;
+  width: 10px;
   max-width: 100%;
+ float: left; 
+ margin: 10px 0
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 img {
