@@ -87,10 +87,10 @@ header {
 /* Logo size and spacing */
 .logo img {
   height: 10px; /* Adjust this to your liking */
-  width: 10px;
+  width: auto;
   max-width: 100%;
  float: left; 
- margin: 10px 0
+ margin: 10px 0;
 }
 
 header {
