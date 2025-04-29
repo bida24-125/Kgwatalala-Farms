@@ -13,9 +13,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+ padding: 10px 20px;
 }
-
-  padding: 10px 40px;
 
 /* Navbar Styling */
 .navbar {
@@ -97,11 +96,6 @@ header {
   margin: 10px 0;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-}
 
 img {
   float: right;
