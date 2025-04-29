@@ -96,6 +96,10 @@ header {
   margin: 10px 0;
 }
 
+.card h-100 shadow-sm border-0 {
+ 
+background-color: #f4f8f0;
+border-radius: 12px;
 
 img {
   float: right;
