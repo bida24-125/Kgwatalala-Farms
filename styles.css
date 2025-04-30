@@ -385,8 +385,11 @@ div.desc {
   clear: both;
 }
 
-
-
+footer {
+ background-color: #D2691E;
+ padding: 50px;
+ text-alighn: center;
+ color: white;
 
 
 
