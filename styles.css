@@ -100,7 +100,7 @@ header {
 .card {
  
 border: none;
- border-radius: 12px;
+ border-radius: 15px;
  overflow: hidden;
  color: black;
  background-size: cover;
@@ -108,7 +108,7 @@ border: none;
 }
 
 .card-body {
- background-color: #f4f8f0;
+ background-color: #FFE4B5;
  padding: 20px;
  border-radius: 12px;
 
