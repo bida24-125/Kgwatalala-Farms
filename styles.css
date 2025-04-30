@@ -96,7 +96,7 @@ header {
   margin: 10px 0;
 }
 
-.card-with-image {
+.card h-100 shadow-sm border-0 {
  
 background-color: #DEB887;
  border-radius: 12px;
@@ -382,9 +382,12 @@ div.desc {
   clear: both;
 }
 
-
-
-
+footer {
+ 
+background-color: D2691E;
+ padding: 50px;
+text-align: center;
+}
 
 
 
