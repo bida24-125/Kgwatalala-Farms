@@ -96,11 +96,13 @@ header {
   margin: 10px 0;
 }
 
+/*card editing*/
 .card h-100 shadow-sm border-0 {
  
 background-color: #DEB887;
  border-radius: 12px;
- 
+}
+
 img {
   float: right;
 }
@@ -384,9 +386,10 @@ div.desc {
 
 footer {
  
-background-color: D2691E;
+background-color: #D2691E;
  padding: 50px;
 text-align: center;
+ color: white;
 }
 
 
