@@ -90,19 +90,27 @@ header {
 
 /* Logo size and spacing */
 .logo img {
-  height: 30px; /* Adjust this to your liking */
+  height: 50px; 
   width: auto;
   max-width: 100%;
   margin: 10px 0;
 }
 
 /*card editing*/
-.card h-100 shadow-sm border-0 {
+.card {
  
-background-color: #f4f8f0;
+border: none;
  border-radius: 12px;
- 
+ overflow: hidden;
+ color: white;
+ background-size: cover;
+ background-position: center
 }
+
+.card-body {
+ background-color: #f4f8f0;
+ padding: 20px;
+ border-radius: 12px;
 
 img {
   float: right;
@@ -177,69 +185,6 @@ div.gallery img {
 div.desc {
   padding: 15px; 
   text-align: center; 
-}
-
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'menu main main main main right'
-    'footer footer footer footer footer footer';
-  gap: 10px;
-  background-color: white;
-  padding: 10px;
-}
-
-.grid-container > div {
-  padding: 10px;
-  font-size: 16px;
-}
-
-.item2 {
-  grid-area: menu;
-  }
-  
-.item2 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.item2 li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-}
-
-.item2 li:hover {
-  background-color: #0099cc;
-}
-  
-.item3 {
-  grid-area: main;
-}
-
-.item3 > h1 {
-  font-size: 30px;
-  margin-bottom: 7px;
-}
-
-.item3 > p {
-  margin-bottom: 7px;
-}
-
-.item4 {
-  grid-area: right;
-  border: 2px solid #0099cc;
-  background-color: white;
-  padding: 15px;
-  color: #000000;
-}
-
-.item4 > h2 {
-  font-size: 20px;
-  padding-bottom: 10px;
 }
 
 .mySlides {
