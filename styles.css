@@ -330,7 +330,7 @@ div.desc {
   clear: both;
 }
 
-footer {
+.custom-footer {
  background-color: #D2691E;
  padding: 50px;
  text-align: center;
