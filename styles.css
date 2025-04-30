@@ -332,7 +332,7 @@ div.desc {
 
  
 .custom-footer {
-  background-color: #D2691E;
+  background-color: #D2691E !important;
   padding: 50px;
   text-align: center;
   color: white;
