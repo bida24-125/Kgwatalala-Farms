@@ -334,9 +334,9 @@ div.desc {
 .custom-footer {
   background-color: #D2691E !important;
   padding: 50px;
-  text-align: center;
+  text-align: center !important; 
   color: white;
-  min-height: 60px;
+  min-height: 60px !important;
 } 
 
 
