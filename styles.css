@@ -101,6 +101,7 @@ header {
  
 background-color: #DEB887;
  border-radius: 12px;
+ 
 }
 
 img {
@@ -384,13 +385,7 @@ div.desc {
   clear: both;
 }
 
-footer {
- 
-background-color: #D2691E;
- padding: 50px;
-text-align: center;
- color: white;
-}
+
 
 
 
