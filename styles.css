@@ -5,6 +5,11 @@
   color: saddlebrown;
 }
 
+h3 {
+ font-family: Georgia, serif;
+ color: DarkGreen;
+}
+
  /* Header Styling */
 header {
   background-color: #4CAF50;
