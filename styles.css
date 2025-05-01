@@ -170,10 +170,15 @@ line-height: 1.6;
 /*Gallery styling*/
 
 .gallery {
-  margin: 5px; 
-  border: 1px solid #ccc; 
-  float: left; 
+  margin: 1px; 
+  border: 6px solid #DEB887;  
   width: 180px; 
+}
+
+.gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
 .gallery:hover {
