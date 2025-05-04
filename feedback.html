@@ -61,94 +61,181 @@
 
  <h3 id="csf">CUSTOMER FEEDBACK</h3>
 
+ <div class="container">
+  
+
+  
+ <div class="row">
+      <div class="col-25">
+         <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
  
-<form action="thanks.html"> 
-  
-First name:<br>
-<input type="text" name="firstname"><br> 
-Last name:<br>
-<input type="text" name="lastname"><br>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>  
 
-Gender:<br>
-  
-<input type="radio" name="gender" value="male"> Male<br>
-  
-<input type="radio" name="gender" value="female"> Female<br>
-  
-<input type="radio" name="gender" value="other"> Other<br>
+  <div class="row">
+      <div class="col-25">
+        <label for="gender">Gender</label>
+      </div>
+      <div class="col-75">
+       <input type="radio" name="gender" value="male"> Male<br>
+       <input type="radio" name="gender" value="female"> Female<br>
+       <input type="radio" name="gender" value="other"> Other<br>
+       <input type="radio" name="gender" value="Prefer not to say"> Prefer not to say<br>
+      </div>
+    </div>  
 
-<input type="radio" name="gender" value="Prefer not to say"> Prefer not to say<br>
-
-Date of service:<br>
-<input type="text" name=Date of service"<br>
-
- Feedback is a:<br>
-
- <input type="radio" name="feedback is a" value="suggestion"> Suggestion<br>
-
- <input type="radio" name="feedback is a" value="compliment"> Compliment<br>
+<div class="row">
+      <div class="col-25">
+        <label for="Service date">Date of Service</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="service date" name="Date of Service" placeholder="DD/MM/YYYY">
+      </div>
+    </div>  
  
- <input type="radio" name="feedback is a" value="complaint"> complaint<br>
+<div class="row">
+ <div class="col-25">
+ <label for="feedback">Feedback is a?</label>
+ </div>
+ <div class="col-75">
+        <select id="feeback" name="Feedback is a:">
+          <option value="Suggestion">Suggestion</option>
+          <option value="Compliment">Compliment</option>
+          <option value="Complaint">Complaint</option>
+          <option value="Other">Other</option> 
+        </select>
+      </div>
+    </div>
 
- <input type="radio" name="feedback is a" value="other"> Other<br>
-
- Which of our services does your feedback apply to:<br>
-
- <input type="radio" name="which of our services does your feedback apply to" value="Sale of livestock"><br>
- 
- <input type="radio" name="which of our services does your feedback apply to" value="Breeding service"><br>
-
- <input type="radio" name="which of our services does your feedback apply to" value="Veterinary services"><br>
-
- <input type="radio" name="which of our services does your feedback apply to" value="Broker services"><br>
-
- <input type="radio" name="which of our services does your feedback apply to" value="Other"><br>
-
- If you selected "Other" above, please state below which of our services your feedback applies to:<br>
-
- <input type="text" name="State which of our services your feedback applies to"><br>
+<div class="col-75">
+        <select id="service" name="Which of our services does your feedbaack apply to:">
+          <option value="Sale of Livestock">Sale of livestock</option>
+          <option value="Breeding service">Breeding service</option>
+          <option value="Verterinary service">Verterinary service</option>
+          <option value="Broker service">Broker service</option> 
+          <option value="Othee">Other</option> 
+        </select>
+      </div>
+    </div>
 
  Kindly state your feedback:<br>
-
+ 
+ <div class="row">
+      <div class="row">
+      
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" width="100%"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+      <div class="col-75">
+        <textarea id="feedback" name="feedback" placeholder="Feedback.." style="height:200px"></textarea>
+      </div>
+    </div>
  <input type="text" name="Kindly state your feedback"><br>
 
  Would you recommend our services:<br>
-  <input type="radio" name="would you recommend our services" value="YES"><br>
+<div class="row">
+      <div class="col-25">
+        <label for="services">Would you recommend our services</label>
+      </div>
+      <div class="col-75">
+        <select id="services" name="Would you recommend our services?">
+          <option value="YES">YES</option>
+          <option value="NO">NO</option>
+        </select>
+      </div>
+    </div>
  
-  <input type="radio" name="would you recommend our services" value="NO"><br>
 Additional comments:<br>
- <input type="text" name=additional comments"><br>
+
+ <div class="row">
+   <div class="col-25">
+     <label for="Comments">Additional Comments</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" width="100%"></textarea>
+      </div>
+ </div>
  
- <input type="submit" value="Submit"><br>
-
-
 <h3 id="csf">Customer service</h3>
 
- Where you assisted by a specific employee:<br>
- <input type="radio" name="where you assisted by a specific employee" value="Yes"> Yes<br>
+ <div class="row">
+      <div class="col-25">
+        <label for="services"> Where you assisted by a specific employee?</label>
+      </div>
+      <div class="col-75">
+        <select id="services" name="Where you assisted by a specific employee?">
+          <option value="YES">YES</option>
+          <option value="NO">NO</option>
+        </select>
+      </div>
+    </div>
 
- <input type="radio" name="where you assisted by a specific employee" value="No"> No<br>
 
- If you selected "Yes", please complete the following:<br>
- 
- Employee name and surname:<br>
- <input type="text" name="employee name and surname"><br>
+ <p>If you selected "Yes", please complete the following:<br></p>
 
- How would you rate the quality of their service:<br> 
- <input type="radio" name="how would you rate the quality of their srvice" value="Excellent"><br>
+ <div class="row">
+      <div class="col-25">
+        <label for="Employee name and surnmae">Employee Name and Surname</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="Employee name and surname" name="Employee name and surname" placeholder="Name and Surname">
+      </div>
+    </div>  
 
-  <input type="radio" name="how would you rate the quality of their srvice" value="Good"><br>
+ <div class="row">
+      <div class="col-25">
+        <label for="service delivery">How would you rate the quality of their service?</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="bad">Bad</option>
+         <option value="very poor">Very Poor</option>
+        </select>
+      </div>
+    </div>
 
- <input type="radio" name="how would you rate the quality of their srvice" value="Bad"><br>
+  <div class="row">
+      <div class="col-25">
+        <label for="service delivery">Would you recommend them to anyone?</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="service delivery">
+          <option value="YES">YES</option>
+          <option value="NO">NO</option>
+        </select>
+      </div>
 
-  <input type="radio" name="how would you rate the quality of their srvice" value="Poor"><br>
 
- Would you recommend them to anyone:<br>
- <input type="radio" name="would you recommend them to anyone" value="Yes"><br>
- <input type="radio" name="would you recommend them to anyone" value="No"><br>
+   <div class="row">
+     <div class="col-25">
+        <label for="subject">What can they do to improve their service delivery?</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="Service delivery" placeholder="What can they do to improve their service.." style="height:200px" width="100%"></textarea>
+      </div>
+</div>
 
- What can they do to improve their service deliver:<br>
- <input type="text" name="what can they do to improve their service delivery?"><br>
+ <div class="row">
+      <input type="submit" value="Submit">
+    </div>
 
  <input type="submit" value="Submit"><br>
  
