@@ -419,35 +419,6 @@ input[type=submit]:hover {
   }
 }
 
-/* thank you page*/
-
-
-    .thankyou-box {
-      background-color: #ffffff;
-      padding: 40px;
-      border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-
-    .thankyou-box h1 {
-      color: #4CAF50;
-      margin-bottom: 20px;
-    }
-
-    .thankyou-box p {
-      font-size: 18px;
-      margin-bottom: 30px;
-    }
-
-    .thankyou-box a.btn {
-      background-color: #4CAF50;
-      color: white;
-    }
-
-    .thankyou-box a.btn:hover {
-      background-color: #45a049;
-    }
 
 footer {
   background-color: #D2691E !important;
