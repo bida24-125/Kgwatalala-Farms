@@ -421,7 +421,7 @@ input[type=submit]:hover {
 
 /* thank you page*/
 
-body {
+.thankyou {
       background-color: #f4f9f4;
       display: flex;
       justify-content: center;
