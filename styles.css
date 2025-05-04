@@ -170,9 +170,17 @@ line-height: 1.6;
 /*Gallery styling*/
 
 .masonry {
-column-count: 4;
-column-gap: 15px;
-padding: 15px;
+display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 12px;
+ padding: 15px;
+}
+
+.responsive {
+  flex: 1 1 calc(25% - 32px); /* 4 items per row */
+  max-width: calc(25% - 32px);
+  box-sizing: border-box;
 }
 
 
