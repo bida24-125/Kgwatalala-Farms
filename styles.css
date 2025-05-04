@@ -177,14 +177,6 @@ line-height: 1.6;
  padding: 6px;
 }
 
-.responsive {
- flex: 1 1 calc(25%-40px);
- max-width: calc(25%-40px)
-  box-sizing: border-box;
- background-color: white;
- border-radius: 15px;
- overflow: hidden;
- text-align: center;
 
 .gallery {
  background: white;
@@ -193,7 +185,7 @@ line-height: 1.6;
  break-inside: avoid;
   border: 1px solid #DEB887;
  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
- border-radius: 6px;
+ border-radius: 10px;
   width: 100%; 
  overflow: hidden;
 }
