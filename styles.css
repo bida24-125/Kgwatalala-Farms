@@ -173,10 +173,18 @@ line-height: 1.6;
  display: flex;
  flex-wrap: wrap;
  justify-content: center;
- gap: 20px;
- column-count: 4;
+ gap: 10px;
  padding: 6px;
 }
+
+.responsive {
+ flex: 1 1 calc(25%-40px);
+ max-width: calc(25%-40px)
+  box-sizing: border-box;
+ background-color: white;
+ border-radius: 15px;
+ overflow: hidden;
+ text-align: center;
 
 .gallery {
  background: white;
