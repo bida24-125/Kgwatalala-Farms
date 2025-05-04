@@ -405,7 +405,7 @@ input[type=submit]:hover {
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row: after {
   content: "";
   display: table;
   clear: both;
@@ -418,6 +418,45 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+/* thank you page*/
+
+body {
+      background-color: #f4f9f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .thankyou-box {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .thankyou-box h1 {
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+
+    .thankyou-box p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .thankyou-box a.btn {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .thankyou-box a.btn:hover {
+      background-color: #45a049;
+    }
 
 footer {
   background-color: #D2691E !important;
