@@ -111,7 +111,7 @@ header {
 }
 
 .text {
-  background-color: white;
+  background-color: black;
   color: black;
   font-size: 10vw; /* Responsive font size */
   font-weight: bold;
