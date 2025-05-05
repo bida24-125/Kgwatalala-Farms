@@ -106,12 +106,16 @@ header {
   .image-container {
   background-image: url("kglogo.jpg"); /* The image used - important! */
   background-size: cover;
-  position: relative; /* Needed to position the cutout text in the middle of the image */
+  background-position: center; /* Needed to position the cutout text in the middle of the image */
   height: 1000px; /* Some height */
+   display: flex
+   align-items: center;
+   justify-content: center;
 }
 
 .text {
   background-color: white;
+ mix-blend-mode: screen;
   color: black;
   font-size: 10vw; /* Responsive font size */
   font-weight: bold;
@@ -119,7 +123,6 @@ header {
   padding: 40px;
   width: 80%;
   text-align: center; /* Center text */
-  position: absolute; /* Position text */
   top: 50%; /* Position text in the middle */
   left: 50%; /* Position text in the middle */
   transform: translate(-50%, -50%); /* Position text in the middle */
