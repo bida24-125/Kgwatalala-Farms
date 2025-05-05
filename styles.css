@@ -104,7 +104,7 @@ header {
 /*welcome page*/
 #welcome {
   .image-container {
-  background-image: url("farm animals.jpg"); /* The image used - important! */
+  background-image: url("kglogo.jpg"); /* The image used - important! */
   background-size: cover;
   position: relative; /* Needed to position the cutout text in the middle of the image */
   height: 1000px; /* Some height */
