@@ -102,9 +102,8 @@ header {
 }
 
 /*welcome page*/
-#welcome {
-  .image-container {
-  background-image: url("kglogo.jpg"); /* The image used - important! */
+#welcome .image-container {
+  background-image: url("farm animals.jpg"); /* The image used - important! */
   background-size: cover;
   background-position: center; /* Needed to position the cutout text in the middle of the image */
   height: 1000px; /* Some height */
@@ -113,7 +112,7 @@ header {
    justify-content: center;
 }
 
-.text {
+#welcome .text {
   background-color: white;
  mix-blend-mode: screen;
   color: black;
