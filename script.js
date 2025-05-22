@@ -1,7 +1,9 @@
 function searchSite() {
   var query = document.getElementById("search").value.toLowerCase();
 
-  if (query.includes("home")) {
+  if (query.includes("welcome")) {
+    window.location.href = "index.html";
+  } else if (query.includes("home")) {
     window.location.href = "home.html";
   } else if (query.includes("about")) {
     window.location.href = "about.html";
