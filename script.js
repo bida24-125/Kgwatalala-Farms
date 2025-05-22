@@ -27,6 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Optionally collect form data here if needed
 
     // Redirect to thank you page
-    window.location.href = "thankyou.html";
+    window.location.href = "thanks.html";
   });
 });
