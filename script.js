@@ -19,7 +19,7 @@ function searchSite() {
 
 /*feedback*/
 document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("feedbackForm");
+  const form = document.getElementById("feedbackform");
 
   form.addEventListener("submit", function (event) {
     event.preventDefault(); // Prevent the form from reloading the page
