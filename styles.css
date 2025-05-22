@@ -527,7 +527,7 @@ footer {
 
 /* ThankYou page */
 
- .thank-you-box {
+ .thankyou-box {
       background-color: #ffffff;
       border-radius: 15px;
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
@@ -537,18 +537,15 @@ footer {
       margin: 100px auto;
     }
 
-    .thank-you-box img {
-      width: 100px;
-      margin-bottom: 20px;
-    }
+   
 
-    .thank-you-box h1 {
+    .thankyou-box h1 {
       color: #28a745;
       font-size: 2.5rem;
       margin-bottom: 20px;
     }
 
-    .thank-you-box p {
+    .thankyou-box p {
       font-size: 1.1rem;
       color: #555;
     }
@@ -556,4 +553,5 @@ footer {
     .back-btn {
       margin-top: 30px;
     }
+
 
