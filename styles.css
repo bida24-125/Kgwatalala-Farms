@@ -22,7 +22,7 @@ h3 {
 }
 
 .blur-image {
-  background-image: url('.jpg'); 
+  background-image: url('download.jpeg'); 
   background-size: cover;
   background-position: center;
   filter: blur(8px);
