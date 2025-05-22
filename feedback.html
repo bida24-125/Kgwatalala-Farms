@@ -1,247 +1,156 @@
-<html>
- 
+<!DOCTYPE html>
 <html lang="en">
-   
-<!-- Bootstrap CSS -->
-
- 
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
- 
 <head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Feedback | Kgwatalala Farms</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-
-<header>
-
- 
- <div class="logo">
-      <img src="kglogo.jpg" alt="Farm Logo">
-    </div> 
- 
-<nav class="navbar">
- 
-<a href="index.html">Welcome</a> |
- 
-<a href="home.html">Home</a> |
-
-<a href="about.html">About</a> |
-
-<a href="contact.html">Contact</a> |
-
-<a href="images.html">Visual Archive</a> |
-
-<a href="feedback.html">Feedback</a>
-
-   <div class="search-container">
-    <form onsubmit="return searchSite();">
-      <input type="text" id="search" placeholder="Search..">
-      <button type="submit">Search</button>
-    </form>
-   </div>
- 
-</nav>
-
-</header>
- 
- <main class="main">
-
-<div class="row">
-
-<div class="col-md-8">
-
- 
-<p id="feedback">We at Kgwatalala Farms very much love hearing from you. We really value you and appreciate your input.<br>
-     We strive to satisfy each and everyone of our customers needs and we can only do that if we hear from you.<br>
-     Please fill questionair we have below and lets make this an enjoyable experience for you.<br></p>
-
- <h3 id="csf">CUSTOMER FEEDBACK</h3>
-
- <div class="container">
-  
-
-  
- <div class="row">
-      <div class="col-25">
-         <label for="fname">First Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      </div>
+  <header class="mb-4">
+    <div class="logo">
+      <img src="kglogo.jpg" alt="Farm Logo" />
     </div>
- 
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Last Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      </div>
-    </div>  
 
-  <div class="row">
-      <div class="col-25">
-        <label for="gender">Gender</label>
-      </div>
-      <div class="col-75">
-       <input type="radio" name="gender" value="male"> Male<br>
-       <input type="radio" name="gender" value="female"> Female<br>
-       <input type="radio" name="gender" value="other"> Other<br>
-       <input type="radio" name="gender" value="Prefer not to say"> Prefer not to say<br>
-      </div>
-    </div>  
+    <nav class="navbar">
+      <a href="index.html">Welcome</a> |
+      <a href="home.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="images.html">Visual Archive</a> |
+      <a href="feedback.html">Feedback</a>
 
-<div class="row">
-      <div class="col-25">
-        <label for="Service date">Date of Service</label>
+      <div class="search-container">
+        <form onsubmit="return searchSite();">
+          <input type="text" id="search" placeholder="Search..." />
+          <button type="submit">Search</button>
+        </form>
       </div>
-      <div class="col-75">
-        <input type="text" id="service date" name="Date of Service" placeholder="DD/MM/YYYY">
+    </nav>
+  </header>
+
+  <main class="container">
+    <p id="feedback">
+      We at Kgwatalala Farms value your feedback. We appreciate your input and strive to meet every customer's needs. Please fill out the questionnaire below to help us serve you better.
+    </p>
+
+    <h3 id="csf">Customer Feedback</h3>
+
+    <form>
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" class="form-control" placeholder="Your name..." />
+        </div>
+        <div class="col-md-6">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" class="form-control" placeholder="Your last name..." />
+        </div>
       </div>
-    </div>  
- 
-<div class="row">
- <div class="col-25">
- <label for="feedback">Feedback is a?</label>
- </div>
- <div class="col-75">
-        <select id="feeback" name="Feedback is a:">
+
+      <div class="mb-3">
+        <label>Gender</label><br />
+        <input type="radio" name="gender" value="male" /> Male<br />
+        <input type="radio" name="gender" value="female" /> Female<br />
+        <input type="radio" name="gender" value="other" /> Other<br />
+        <input type="radio" name="gender" value="prefer-not" /> Prefer not to say
+      </div>
+
+      <div class="mb-3">
+        <label for="service-date">Date of Service</label>
+        <input type="text" id="service-date" name="service_date" class="form-control" placeholder="DD/MM/YYYY" />
+      </div>
+
+      <div class="mb-3">
+        <label for="feedback-type">Feedback Type</label>
+        <select id="feedback-type" name="feedback_type" class="form-select">
           <option value="Suggestion">Suggestion</option>
           <option value="Compliment">Compliment</option>
           <option value="Complaint">Complaint</option>
-          <option value="Other">Other</option> 
+          <option value="Other">Other</option>
         </select>
       </div>
-    </div>
 
-
-  <div class="row">
- <div class="col-25">
- <label for="feedback">Which of our services does your feedback apply to?</label>
- </div>
-<div class="col-75">
-        <select id="service" name="Which of our services does your feedbaack apply to?">
-          <option value="Sale of Livestock">Sale of livestock</option>
-          <option value="Breeding service">Breeding service</option>
-          <option value="Verterinary service">Verterinary service</option>
-          <option value="Broker service">Broker service</option> 
-          <option value="Othee">Other</option> 
+      <div class="mb-3">
+        <label for="service-feedback">Which service does your feedback apply to?</label>
+        <select id="service-feedback" name="service_feedback" class="form-select">
+          <option value="Sale of Livestock">Sale of Livestock</option>
+          <option value="Breeding Service">Breeding Service</option>
+          <option value="Veterinary Service">Veterinary Service</option>
+          <option value="Broker Service">Broker Service</option>
+          <option value="Other">Other</option>
         </select>
       </div>
-    </div>
- 
- <div class="row">
-   <div class="col-25">
- <label for="feedback">Kindly state your feedback</label>
- </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Feedback.." style="height:200px" width="100%"></textarea>
-      </div>
-    </div>
 
-<div class="row">
-      <div class="col-25">
-        <label for="services">Would you recommend our services</label>
+      <div class="mb-3">
+        <label for="feedback-text">Kindly state your feedback</label>
+        <textarea id="feedback-text" name="feedback_text" class="form-control" rows="5" placeholder="Feedback..."></textarea>
       </div>
-      <div class="col-75">
-        <select id="services" name="Would you recommend our services?">
+
+      <div class="mb-3">
+        <label for="recommend">Would you recommend our services?</label>
+        <select id="recommend" name="recommend_services" class="form-select">
           <option value="YES">YES</option>
           <option value="NO">NO</option>
         </select>
       </div>
-    </div>
 
- <div class="row">
-   <div class="col-25">
-     <label for="Comments">Additional Comments</label>
+      <div class="mb-3">
+        <label for="additional-comments">Additional Comments</label>
+        <textarea id="additional-comments" name="additional_comments" class="form-control" rows="5" placeholder="Write something..."></textarea>
       </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" width="100%"></textarea>
-      </div>
- </div>
- 
 
-
- <div class="row">
-      <div class="col-25">
-        <label for="services"> Where you assisted by a specific employee?</label>
-      </div>
-      <div class="col-75">
-        <select id="services" name="Where you assisted by a specific employee?">
+      <div class="mb-3">
+        <label for="assisted">Were you assisted by a specific employee?</label>
+        <select id="assisted" name="assisted" class="form-select">
           <option value="YES">YES</option>
           <option value="NO">NO</option>
         </select>
       </div>
-    </div>
 
+      <p>If you selected "Yes", please complete the following:</p>
 
- <p>If you selected "Yes", please complete the following:<br></p>
-
- <div class="row">
-      <div class="col-25">
-        <label for="Employee name and surnmae">Employee Name and Surname</label>
+      <div class="mb-3">
+        <label for="employee-name">Employee Name and Surname</label>
+        <input type="text" id="employee-name" name="employee_name" class="form-control" placeholder="Name and Surname" />
       </div>
-      <div class="col-75">
-        <input type="text" id="Employee name and surname" name="Employee name and surname" placeholder="Name and Surname">
-      </div>
-    </div>  
 
- <div class="row">
-      <div class="col-25">
-        <label for="service delivery">How would you rate the quality of their service?</label>
-      </div>
-      <div class="col-75">
-        <select id="country" name="country">
+      <div class="mb-3">
+        <label for="employee-service">Rate the quality of their service</label>
+        <select id="employee-service" name="employee_service_rating" class="form-select">
           <option value="excellent">Excellent</option>
           <option value="good">Good</option>
           <option value="bad">Bad</option>
-         <option value="very poor">Very Poor</option>
+          <option value="very poor">Very Poor</option>
         </select>
       </div>
-    </div>
 
-  <div class="row">
-      <div class="col-25">
-        <label for="service delivery">Would you recommend them to anyone?</label>
-      </div>
-      <div class="col-75">
-        <select id="country" name="service delivery">
+      <div class="mb-3">
+        <label for="recommend-employee">Would you recommend them?</label>
+        <select id="recommend-employee" name="recommend_employee" class="form-select">
           <option value="YES">YES</option>
           <option value="NO">NO</option>
         </select>
       </div>
-  </div>
 
-
-   <div class="row">
-     <div class="col-25">
-        <label for="subject">What can they do to improve their service delivery?</label>
+      <div class="mb-4">
+        <label for="employee-improvement">What can they do to improve their service delivery?</label>
+        <textarea id="employee-improvement" name="employee_improvement" class="form-control" rows="5" placeholder="Your suggestions..."></textarea>
       </div>
-      <div class="col-75">
-        <textarea id="subject" name="Service delivery" placeholder="What can they do to improve their service.." style="height:200px" width="100%"></textarea>
+
+      <div class="mb-4">
+        <input type="submit" value="Submit" class="btn btn-primary" />
       </div>
-</div>
+    </form>
+  </main>
 
- <div class="row">
-      <input type="submit" value="Submit">
-    </div>
+  <footer class="custom-footer text-white text-center py-4 bg-dark">
+    © 2025 Kgwatalala Farms. All rights reserved.
+  </footer>
 
-</form>
-
-</div>
- </main>
-
- <footer class="custom-footer text-white text-center py-4">
- © 2025 Kgwatalala Farms. All rights reserved.
-</footer>
- 
- <script src="js/script.js"></script>
+  <script src="script.js"></script>
 </body>
+</html>
 
