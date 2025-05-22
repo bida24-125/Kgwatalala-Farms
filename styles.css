@@ -93,6 +93,12 @@ header {
   }
 }
 
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
 /* Logo size and spacing */
 .logo img {
   height: 70px; 
