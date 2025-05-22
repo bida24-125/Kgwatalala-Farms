@@ -10,6 +10,95 @@ h3 {
  color: DarkGreen;
 }
 
+/*Welcome page styling*/
+.blur-section {
+  position: relative;
+  width: 100%;
+  height: 60vh; /* relative height for responsiveness */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blur-image {
+  background-image: url('.jpg'); 
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.blur-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.blur-text {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  animation: fadeInUp 1s ease-out forwards;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.blur-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.blur-text p {
+  font-size: 1.2rem;
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .blur-section {
+    height: 50vh;
+  }
+
+  .blur-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .blur-text p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .blur-text {
+    padding: 1rem;
+  }
+
+  .blur-text h1 {
+    font-size: 1.4rem;
+  }
+
+  .blur-text p {
+    font-size: 0.9rem;
+  }
+}
+
+
  /* Header Styling */
 header {
   background-color: #4CAF50;
