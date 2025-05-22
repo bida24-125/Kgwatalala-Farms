@@ -527,6 +527,7 @@ footer {
 
 /* ThankYou page */
 
+
  .thankyou-box {
       background-color: #ffffff;
       border-radius: 15px;
@@ -536,8 +537,6 @@ footer {
       max-width: 600px;
       margin: 100px auto;
     }
-
-   
 
     .thankyou-box h1 {
       color: #28a745;
