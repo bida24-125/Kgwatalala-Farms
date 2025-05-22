@@ -16,3 +16,17 @@ function searchSite() {
   }
   return false;
 }
+
+/*feedback*/
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("feedbackForm");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent the form from reloading the page
+
+    // Optionally collect form data here if needed
+
+    // Redirect to thank you page
+    window.location.href = "thankyou.html";
+  });
+});
